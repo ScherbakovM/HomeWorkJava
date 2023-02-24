@@ -1,4 +1,4 @@
-package Lection1;
+package Lection;
 import java.io.PrintStream;
 import java.lang.ProcessBuilder.Redirect.Type;
 
