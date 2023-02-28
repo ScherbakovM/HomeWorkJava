@@ -21,7 +21,7 @@ public class Task3 {
     public static int calc (int arg) throws Exception{
         System.out.println("Какое действие необходимо сделать ?");
         System.out.println("Введите операцию +  -  * / ");
-        System.out.println("q - выход, c - отмена последнего действия" );
+        System.out.println("q - выход, cancel - отмена последнего действия" );
         Scanner scanner = new Scanner(System.in);
         String action = scanner.nextLine();
         int result = 0;
