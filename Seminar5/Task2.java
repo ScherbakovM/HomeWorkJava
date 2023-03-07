@@ -29,8 +29,8 @@ public class Task2 {
             entryNames.put(chesk, entry);
         }
         
-        entryNames.entrySet().stream()  // сортировка
-        .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()).forEach(System.out::println); 
+        entryNames.entrySet().stream()
+        .sorted(Map.Entry.<String, Integer>comparingByValue().reversed()); 
         
         
         return entryNames;
